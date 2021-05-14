@@ -1,0 +1,76 @@
+/* 公用css样式文件 */
+/* 背景颜色 */
+.bg03{
+  background: #030303;
+}
+/* 左浮动 */
+.fl{
+  float: left;
+}
+/* 右浮动 */
+.fr{
+  float: right;
+}
+/* 清除浮动 */
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+/* 版心 */
+.warp{
+  width: 1680px;
+  margin: auto;
+}
+/* 文字公用颜色 */
+.color00a{
+  color: #00a7ea;
+}
+.colorfff{
+  color: #fff;
+}
+/* 背景公用颜色 */
+.bg00a{
+  background: #00a7ea;
+}
+
+/* 公用字体大小 */
+.f12{
+  font-size: 12px;
+}
+.f16{
+  font-size: 16px;
+}
+.f18{
+  font-size: 18px;
+}
+.f20{
+  font-size: 20px;
+}
+.f22{
+  font-size: 22px;
+}
+.f24{
+  font-size: 24px;
+}
+.f26{
+  font-size: 26px;
+}
+.f28{
+  font-size: 28px;
+}
+.f30{
+  font-size: 30px;
+}
+/* 字体加粗 */
+.fw{
+  font-weight: bold;
+}
+/* 文字水平居中 */
+.ta{
+  text-align: center;
+}
+/* 标签居中 */
+.ma{
+  margin: auto;
+}

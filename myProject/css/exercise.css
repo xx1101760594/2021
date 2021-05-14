@@ -1,0 +1,106 @@
+
+/* 头部固定导航 */
+.headtitle{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+/* 左边logo1 */
+.headtitle>.logo1{
+    width: 89px;
+    height: 60px;
+    background: url("../imgs/logo1.png") no-repeat;
+    background-position: 0 20px;
+    margin-left: 25px;
+}
+/* 中间导航 */
+.headtitle>.title{
+    width: 50%;
+    /* background: red; */
+    height: 60px;
+    margin-left: 430px;
+}
+.headtitle>.title>a{
+    font-size: 15.5px;
+    font-style: italic;
+    font-weight: bold;
+    color: #838383;
+    line-height: 60px;
+    margin-right: 40px;
+}
+.headtitle>.title>a:nth-child(2){
+    color: #ab192d;
+}
+.headtitle>.title>a:hover{
+    color: #ab192d;
+}
+/* 右边logo */
+.headtitle>.logo2{
+    width: 86px;
+    height: 60px;
+    background: url("../imgs/logo2.png") no-repeat;
+    background-position: 0 15px;
+    margin-right: 25px;
+}
+/* 中间身体图片 */
+.bodyimg{
+    width: 100%;
+    height: 1080px;
+    background: url("../imgs/rs6.png");
+    position: relative;
+}
+/* 文字盒子 */
+.bodyimg>.textBox{
+    width: 655px;
+    height: 230px;
+    background: url("../imgs/background-black.png");
+    position: absolute;
+    top: 425px;
+    right: 0;
+    color: #fff;
+}
+.bodyimg>.textBox>p:first-child{
+    font-size: 37px;
+    font-weight: bold;
+    margin: 13px 0 16px 0;
+}
+.bodyimg>.textBox>p{
+    position: relative;
+    top: 30px;
+    left: 155px;
+    line-height: 28px;
+}
+.bodyimg>.imgBox{
+    width: 140px;
+    height: 42px;
+    background: url("../imgs/understand.png");
+    position: absolute;
+    top: 580px;
+    right: 25px;
+}
+/* 页脚 */
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: #030303;
+    position: relative;
+}
+.footer a{
+    font-size: 15.5px;
+    line-height: 80px;
+    margin-right: 25px;
+    color: #888b85;
+}
+.footer>a:first-child{
+    margin-left: 80px;
+}
+.footer>div{
+    width: 165px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 28px;
+}
